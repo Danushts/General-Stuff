@@ -1,0 +1,38 @@
+let str1 = ['Python', 'Javascript', 'Go', 'Java', 'PHP', 'Ruby']
+str1.forEach((x) => {
+  if(x.length > 8){  
+    console.log(x);
+  }
+})
+
+
+
+  let arr=['2','5','2','4','6','5']
+let a=[]
+arr.sort();
+a.push(arr[0]);
+for(let i=1; i<arr.length; i++){
+if(!arr[i].includes(a)){
+a.push(arr[i])
+}
+}
+console.log(a)
+
+
+promis.resolve('sucess!)
+.then(throw error ('first'))
+.catch
+.then
+.catch
+
+console.log(x)
+var x=5
+console.log(x)
+
+console.log(x)
+let x=5
+console.log(x)
+
+console.log('first)
+settimeout(()=>{console.log('secound)},0)
+console.log('thired)
